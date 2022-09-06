@@ -1,0 +1,237 @@
+/* Regras Index.html */
+body{
+    background-color: #e5dbd0 ;
+}
+figure{
+    width: 50%;
+    margin: auto;
+}
+.logotipoTodos{
+    width: 100%;
+    border-radius: 80%;
+}
+#logoContatos{
+    width: 100%;
+    border-radius: 80%;
+}
+fieldset{
+    border: 1px solid #4b2f28;
+    width: 90%;
+    margin-left: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: large;
+    color: #dd5a79;
+}
+.banner{
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.pesquisa{
+    margin-bottom: 6%;
+    margin-top: 5%;
+    border-radius: 20px;
+}
+ul label{
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    justify-content: space-around;
+    padding: 0.90%;
+    align-items: center;
+    width: 98%;
+    margin: auto;
+    display: flex;
+    font-size: large;
+    padding-bottom: 3%;
+    background-color: #4b2f28;
+    color: #e5dbd0;
+    border-radius: 20px;
+    
+}
+a{
+    text-decoration: none;
+}
+h1, p{
+    font-size: 1.30rem;
+    color: #4b2f28;
+    text-align: center;
+    padding: 3%;
+}
+input{
+    width: 80%;
+    margin: auto;
+    padding: 0.90%;
+    display: block;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    margin: auto;
+    padding: auto;
+    background-color: #4b2f28;
+}
+address{
+    color: #e5dbd0;
+    font-size: small;
+    text-align: center;
+}
+span{
+    font-size: x-small;
+    color: beige;
+}
+fieldset textarea{
+    display: block;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+fieldset input{
+    display: block;
+    width: 88%;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: -1%;
+}
+fieldset legend{
+    margin-top: 5%;
+}
+a{
+    color: #e5dbd0;
+}
+#social{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    
+    background-color: #e5dbd0;
+}
+.imgSocial{
+    margin: auto;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    width: 45%;
+    display: flex;
+    border-radius: 100%;
+    justify-content: space-evenly;
+}
+.exibicao{
+    margin: auto;
+    margin-bottom: 10%;
+    width: 85%;
+    border-radius: 10px;
+    padding: 2.5%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #dbd1c8;
+}
+.fotoExibicao{
+    width: 80%;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    
+}
+
+@media only screen and (min-width: 800px){
+
+    figure{
+        width: 40%;
+    }
+    h1, p{
+        font-size: 1.80rem;
+        padding: 4%;
+    }
+    ul{
+        font-size: larger;
+        padding-bottom: 1.85%;  
+    }
+    
+    fieldset{
+        width: 75%;
+        margin: auto;
+        font-size: larger;
+    }
+    address{
+        font-size: medium;
+        text-align: center;
+    }
+    span{
+        font-size: small;
+    }
+    .mamae{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .exibicao{
+        width: 40%;
+        padding: 1.5%;
+    }
+}
+@media only screen and (min-width: 1024px){
+    
+    figure{
+        width: 25%;
+    }
+    h1, p{
+        font-size: 2rem;
+        padding: 4%;
+    }
+    ul{
+        font-size: x-large;
+        padding-bottom: 1.20%;
+        border-radius: 30px;
+    }
+    .pesquisa{
+        margin-bottom: 1%;
+        margin-top: 5%;
+        border-radius: 30px;
+    }
+    fieldset{
+        width: 80%;
+        margin: auto;
+        font-size: x-large;
+    }
+    #sugestao{
+        margin-top: 4.5%;
+    }
+    address{
+        font-size: large;
+        text-align: center;
+    }
+    span{
+        font-size: medium;
+    }
+    .mamae{
+        padding-top: 5%;
+    }
+    .exibicao{
+        width: 25%;
+        padding: 1.5%;
+    }
+    fieldset textarea{
+        display: block;
+        width: 90%;
+        text-align: center;
+        margin: auto;
+        margin-top: 2%;
+    }
+    fieldset input{
+        width: 88%;
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 1%;
+    }
+    .imgSocial{
+        width: 35%;
+    }
+}
+
+
+
+

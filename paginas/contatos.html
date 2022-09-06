@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Pedro Becker">
+    <meta name="description" content="Website da Neidinha Bolos">
+    <meta name="keywords"
+        content="neidinha bolos, bolos, doces, salgados, brigadeiro, santos, doces finos, bolo de andar, bolo salgado, bolo recheado, beijinho, crocante, chocolate branco, chocolate">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Neidinha Bolos</title>
+</head>
+<body>
+    <header>
+        <figure>
+            <img class="logotipoTodos" src="/imagens/logotiponeidinha.png" alt="Imagem do logotipo da Neidinha Bolos">
+        </figure>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="bolos.html">Bolos</a></li>
+            <li><a href="doces.html">Doces</a></li>
+            <li><a href="kitfesta.html">Kit Festa</a></li>
+            <li><a href="contatos.html">Contatos</a></li>
+        </ul>
+
+        <input type="search" name="Pesquisar" class="pesquisa" placeholder="BUSCAR NO SITE">
+    </nav>
+
+    <main>
+        <form action="resposta.html" name="formSugestao" onsubmit="return validarForm()">
+            <fieldset id="sugestao">
+                <legend>SUGESTÕES</legend>
+                <input type="text" name="nome" id="nome" placeholder="NOME"><br>
+                <input type="text" name="email" id="email" placeholder="E-MAIL"><br>
+                <textarea name="texto" id="texto" cols="45" rows="5" placeholder="DIGITE SEU TEXTO AQUI"></textarea><br>
+                <input type="submit" value="Enviar"><br>
+            </fieldset>
+        </form>
+
+            <section id="social">
+                <a href="https://instagram.com/neidinhabolos_santos?igshid=YmMyMTA2M2Y=" target="_blank"><img class="imgSocial" src="/imagens/instagram.png" alt="Logotipo do Instagram"></a>
+                
+                <a href="https://www.facebook.com/neidinha.bolos" target="_blank"><img class="imgSocial" src="/imagens/facebook.png" alt="Logotipo do Facebook"></a>
+                
+                <a href="https://wa.me/+5513988109580" target="_blank"><img class="imgSocial" src="/imagens/whatsapp.png" alt="Logotipo do WhatsApp"></a>
+                
+            </section>
+    </main>
+
+    <footer>
+        <address>
+            Neidinha Bolos, Doces e Salgados <br>
+            Tel: (13) 3219 - 4149 <br>
+            Cel: (13) 98810 - 9580 <br>
+            <span>Desenvolvido por SmartSolutions - 2022 todos os direitos reservados</span>
+        </address>
+    </footer>
+    <script defer src="/js/script.js"></script>
+</body>
+</html>
